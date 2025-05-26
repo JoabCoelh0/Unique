@@ -1,5 +1,5 @@
 #servicos{
-    width: 100vw;
+    width: 100%;
 }
 
 #servicos #container_servicos{
@@ -15,6 +15,18 @@
 
 #servicos #container_servicos #servicos1 #text_servicos, #imagem_servicos{
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin: auto;
+    }
 }
 
 #servicos #container_servicos #servicos1 #text_servicos{

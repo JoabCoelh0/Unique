@@ -1,8 +1,7 @@
 #cabeçalho{
     background-color: var(--background-color);
-    
     text-align: center;
-    width: 100vw;
+    width: 100%;
     
 }
 
@@ -60,3 +59,15 @@
     }
 }
 
+
+#menu #logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 150px;
+        height: auto;
+    }
+}
+ 

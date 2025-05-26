@@ -1,0 +1,51 @@
+#contato{
+    width: 100%;
+    background-color: var(--background-color2);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#contato #container_contato{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        color: var(--text-color);
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    p{
+        color: var(--text-color);
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    a > button{
+        background-color: none;
+        cursor: pointer;
+        width: 250px;
+        height:45px;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        border: 1px solid var(--primary-color);
+        ont: var(--font-family);
+        font-weight: 700;
+        background-color: var(--primary-color);
+        color: var(--background-color);
+
+        &:hover{
+            background-color: var(--background-color);
+            color: var(--primary-color);
+            transition: 0.3s;
+        }
+    }
+}
