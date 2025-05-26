@@ -1,0 +1,39 @@
+#Impacto{
+    padding:  100px auto;
+    width: 100vw;
+}
+
+#impacto_imagem{
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#impacto_texto {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  
+}
+
+#impacto_texto #textos{
+    padding-top: 15px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+    p{
+        padding-top: 15px;
+    }
+
+    h3{
+        font-size: 1.5rem;
+        margin: 0;
+        padding-top: 20px;
+        text-align: left;
+    }
+}   

@@ -1,0 +1,62 @@
+#cabeçalho{
+    background-color: var(--background-color);
+    
+    text-align: center;
+    width: 100vw;
+    
+}
+
+#menu{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--background-color2);
+}
+
+#menu ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+#menu ul li a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+
+    &:hover{
+        color: var(--primary-color);
+        transition: 0.3s;
+        font-weight: 700;
+    }
+
+}
+
+
+#menu ul a > button{
+    background-color: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+    font: var(--font-family);
+    font-weight: 700;
+    color: var(--primary-color);
+
+    &:hover{
+        background-color: var(--primary-color);
+        color: var(--background-color);
+        transition: 0.3s;
+    }
+}
+
