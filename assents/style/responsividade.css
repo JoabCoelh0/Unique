@@ -1,0 +1,54 @@
+@media  (max-width: 1024px) {
+
+    /*Cabeçalho*/
+
+
+    #menu #logo{
+        display: none;
+    }
+
+    #menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    /*Serviços*/
+
+    #container_servicos{
+        padding: 0 20px;
+    }
+
+
+    #feedback #container_feedback{
+        width: 100%;
+    }
+    #container_feedback #feedbacks{
+        flex-wrap: wrap;
+        gap: 25px;
+        
+    }
+
+
+    /*Contato*/
+    #contato{
+        padding: 50px 0;
+    }
+
+
+    /*Rodapé*/
+
+    #container_rodape{
+        width: 100%;
+        padding: 50px 50px;
+       
+    }
+
+    #copyright{
+        width: 100%;
+    }
+}
+

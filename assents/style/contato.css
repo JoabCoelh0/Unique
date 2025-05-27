@@ -5,6 +5,12 @@
     justify-content: space-between;
 }
 
+#imagem_contato, #imagem_contato2{
+    img{
+        display: none;
+    }
+    
+}
 
 #contato #container_contato{
     width: 100%;
@@ -37,7 +43,7 @@
         font-size: 1.2rem;
         border-radius: 10px;
         border: 1px solid var(--primary-color);
-        ont: var(--font-family);
+        font: var(--font-family);
         font-weight: 700;
         background-color: var(--primary-color);
         color: var(--background-color);
@@ -47,5 +53,21 @@
             color: var(--primary-color);
             transition: 0.3s;
         }
+    }
+}
+
+
+#contato .imagem_contato, #contato .imagem_contato2{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
     }
 }
