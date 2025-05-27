@@ -9,6 +9,7 @@
 }
 
 :root{
+    --sadibar-color: #6c4872;
     --primary-color: #480055;
     --background-color2: #FFFFFF;
     --background-color: #EEEEEE;
@@ -24,4 +25,11 @@ body{
     font-family: var(--font-family);
     color: var(--text-color);
     scroll-behavior: smooth;
+}
+
+
+.menu-button,
+.sidebar,
+.overlay {
+  display: none;
 }

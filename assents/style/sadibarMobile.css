@@ -1,0 +1,67 @@
+
+/* Botão hambúrguer */
+
+.menu-button {
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1001;
+    
+  i{
+    font-size: 25px;
+    color: var(--primary-color)
+  };
+}
+
+.menu-button.active{
+    color: white;
+}
+
+/* Menu lateral */
+.sidebar {
+  height: 100%;
+  width: 250px;
+  background-color:var(--sadibar-color);
+  position: fixed;
+  top: 0;
+  left: -250px;
+  transition: 0.3s;
+  padding-top: 60px;
+  z-index: 1000;
+}
+
+.sidebar a {
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.2s;
+}
+
+.sidebar a:hover {
+  background-color: var(--primary-color);
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+/* Fundo escurecido */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.overlay.active {
+  display: block;
+}

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assents/style/feedback.css">
     <link rel="stylesheet" href="assents/style/contato.css">
     <link rel="stylesheet" href="assents/style/rodape.css">
+    <link rel="stylesheet" href="assents/style/sadibarMobile.css">
     <link rel="stylesheet" href="assents/style/responsividade.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -46,6 +47,21 @@
             
             
         </nav>
+
+        <div id="menu_mobile" >
+            <div class="menu-button" onclick="OpenSadibar()"><i class="fa-solid fa-bars"></i></div>
+
+            <!-- Menu lateral -->
+            <div class="sidebar" id="sidebar">
+            <a href="#">Início</a>
+            <a href="#">Serviços</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            </div>
+
+            <!-- Fundo escurecido -->
+            <div class="overlay" id="overlay" onclick="OpenSadibar()"></div>
+        </div>
 
     </header>
 
@@ -318,8 +334,8 @@
             <p>&copy; 2023 Unique Web Design. Todos os direitos reservados.</p>
         </div>
     </footer>
+    <script src="assents/js/sadibar.js"></script>
     <script src="assents/js/animationLogos.js"></script>
-    <!-- JS -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init();
