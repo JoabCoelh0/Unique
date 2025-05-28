@@ -212,3 +212,43 @@
         display: none;
     }
 }
+
+
+@media (max-width: 477px){
+    #container_home #home #home_texto{
+        width: 90%;
+
+        h1{
+            font-size: 3rem;
+        }
+    }
+
+
+    /*logos*/
+    #logos_clientes{
+        padding-top: 20px;
+    }
+
+
+    /*serviços*/
+
+    #servicos #container_servicos #servicos1 #text_servicos{
+        h1{
+            font-size: 2rem;
+        }
+    }
+
+    /*potenciação*/
+    #potenciacao #container_potenciacao #box_potenciacao .potenciacao{
+        width: 90%;
+
+    }
+
+
+    /*contato*/
+    #contato .imagem_contato, #contato .imagem_contato2{
+        
+        display: none;
+    }
+
+}
