@@ -251,4 +251,15 @@
         display: none;
     }
 
+    /*footer*/
+
+    #container_rodape #links_extras{
+        display: none;
+    }
+
+    #container_rodape #marca{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
 }
