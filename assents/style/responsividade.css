@@ -16,6 +16,13 @@
     }
 
 
+     /*LOGOS CLIENTES*/
+
+    #logos_clientes{
+        padding-top: 100px;
+    }
+
+
     /*Serviços*/
 
     #container_servicos{
@@ -77,6 +84,33 @@
     .overlay.active {
         display: block;
     }
+
+    /*home*/
+    #container_home #home #home_imagem #imagem_likes{
+        width: 35%;
+    }
+    /*LOGOS CLIENTES*/
+
+     #logos_clientes{
+        padding-top : 100px;
+    }
+
+    /*POTENCIAÇÃO*/
+
+    #potenciacao #container_potenciacao #box_potenciacao{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /*footer*/
+
+    #container_rodape #marca{
+        width: 33%;
+    }
+    #container_rodape #menu_footer{
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -102,5 +136,79 @@
 
     .overlay.active {
         display: block;
+    }
+
+    /*home*/
+    
+    #container_home{
+        height: auto;
+    }
+
+    #container_home #home #home_imagem #imagem_likes{
+        width: 35%;
+    }
+
+    /*LOGOS CLIENTES*/
+
+    #logos_clientes{
+        padding-top: 100px;
+    }
+
+    /*Serviços*/
+    #servicos #container_servicos #servicos1{
+        flex-direction: column;
+    }
+
+    #servicos #container_servicos #servicos1 #text_servicos, #imagem_servicos{
+        width: 100%;
+        padding: 30px;
+    }
+
+    #text_servicos{
+        margin-left: none;
+    }
+
+    #imagem_servicos3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /*POTENCIAÇÃO*/
+
+    #potenciacao #container_potenciacao #box_potenciacao{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Footer*/
+
+     #container_rodape #marca{
+        width: 33%;
+    }
+
+    #container_rodape #menu_footer{
+        display: none;
+    }
+}
+
+
+@media (max-width: 653px){
+    #container_home #home #home_imagem #imagem_likes{
+        width: 35%;
+    }
+}
+
+
+@media (max-width: 543px){
+    /*contato*/
+    #contato{
+        text-align: center;
+    }
+    /*footer*/
+    #container_rodape #links{
+        display: none;
     }
 }
